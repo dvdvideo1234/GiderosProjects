@@ -24,7 +24,8 @@ function levels:playCongrats()
 end
 
 tLevels[1] = {
-	max_created    = 0,
+	message        = "Do not make more than 3 boxes man !",
+	max_created    = 2,
 	max_collide_nn = 0,
 	max_collide_wn = 0,
 	max_collide_wb = 0,
@@ -41,7 +42,7 @@ tLevels[1] = {
 tLevels[2] = {
 	max_created    = 0,
 	max_collide_nn = 0,
-	max_collide_wn = 0,
+	max_collide_wn = 1,
 	max_collide_wb = 0,
 	max_collide_bn = 0,
 	max_collide_bb = 0,
